@@ -14,6 +14,10 @@ class App extends Component {
     };
   }
 
+
+  //hey there it the cloning and git pushing stufff
+  
+
   componentDidMount() {
     socket = io("/", { query: { store: this.props.store } });
     socket.on("connect", () => {
